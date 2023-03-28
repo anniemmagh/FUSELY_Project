@@ -1,0 +1,60 @@
+
+         /* COOOOLORRRS  */
+/* bacKground color #F2F2F2 */
+/* button color #6C63FF */
+/* footer color rgba(236, 235, 255, 0.6); */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#F2F2F2 ;
+    font-family: 'Open Sans';
+  }
+  header {
+    position: relative;
+    background-color: rgb(221, 239, 241);
+  
+  }
+  header .container {
+    padding: 1.2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ .navbar {
+  
+  padding: 1.2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.login{
+  color: blue;
+}
+.container  a {
+  margin-left: 3rem;
+  font-size: 1.02rem;
+  padding: 10px 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #9893A3;
+  transition: .2s ease-in;
+}
+
+.headerbtns .login {
+  color: #6C63FF;
+  border: 1px solid #6C63FF;
+  
+}
+.headerbtns .signup{
+  background: #6C63FF;
+border: 1px solid #6C63FF;
+color: white;
+border-radius: 2px;
+}

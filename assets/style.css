@@ -34,9 +34,7 @@ header .container nav {
   gap: 1rem;
   align-items: center;
 }
-.login{
-  color: blue;
-}
+
 .container  a {
   margin-left: 3rem;
   font-size: 1.02rem;
@@ -46,15 +44,27 @@ header .container nav {
   color: #9893A3;
   transition: .2s ease-in;
 }
+.container  a:hover{
+  color: #6C63FF;
+}
 
 .headerbtns .login {
   color: #6C63FF;
   border: 1px solid #6C63FF;
+  transition: .2s ease-in;
   
+}
+.headerbtns .login:hover{
+  background-color: #6C63FF;
+  color: white;
 }
 .headerbtns .signup{
   background: #6C63FF;
 border: 1px solid #6C63FF;
 color: white;
 border-radius: 2px;
+}
+.headerbtns .signup:hover {
+  background-color: white;
+  color: #6C63FF;
 }

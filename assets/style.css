@@ -32,6 +32,7 @@ header .container nav {
   align-items: center;
 }
 
+
 .container a {
   margin-left: 3rem;
   font-size: 1.02rem;
@@ -124,4 +125,59 @@ header .container nav {
   align-items: center;
   margin-top: 3rem;
   padding: 1.2rem 9%;
+}
+.section_two{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8rem;
+gap: 200px;
+margin-top: 3rem;
+width: 1180px;
+height: 442.78px;
+}
+.section_two  h1 {
+  width: 400px;
+height: 128px;
+
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 64px;
+
+
+letter-spacing: -1px;
+
+
+color: #2F2E41;
+}
+.section_two p {
+  width: 400px;
+height: 102px;
+margin-top: 3rem;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+
+
+color: #9893A3;
+}
+.section_two a {
+  width: 92px;
+height: 20px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 200px;
+letter-spacing: -1px;
+color: #2F2E41;
+transition: .3s ease;
+}
+.section_two a:hover{
+color: #6c63ff;
 }

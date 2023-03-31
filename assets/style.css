@@ -2,6 +2,9 @@
 /* bacKground color #F2F2F2 */
 /* button color #6C63FF */
 /* footer color rgba(236, 235, 255, 0.6); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Open+Sans:wght@300;400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +34,13 @@ header .container nav {
   gap: 1rem;
   align-items: center;
 }
-
+.logo {
+  position: absolute;
+  left: 2%;
+  right: 80%;
+  top: 30%;
+  bottom: 9.02%;
+}
 .container a {
   margin-left: 3rem;
   font-size: 1.02rem;
@@ -47,7 +56,8 @@ header .container nav {
 
 .headerbtns .login {
   color: #6c63ff;
-  border: 1px solid #6c63ff;
+  border: 2px solid #6c63ff;
+
   transition: 0.2s ease-in;
 }
 .headerbtns .login:hover {
@@ -58,6 +68,7 @@ header .container nav {
   background: #6c63ff;
   border: 1px solid #6c63ff;
   color: white;
+
   border-radius: 2px;
 }
 .headerbtns .signup:hover {
@@ -95,13 +106,13 @@ header .container nav {
   align-items: center;
   padding: 1px 30px;
   gap: 10px;
-  width: 140px;
-  height: 41px;
+  width: 150px;
+  height: 45px;
   text-decoration: none;
   color: white;
   background: #6c63ff;
   border: 1px solid #6c63ff;
-  border-radius: 2px;
+  border-radius: 3px white solid;
   transition: 0.3s ease;
 }
 .description .sectionbtn:hover {
